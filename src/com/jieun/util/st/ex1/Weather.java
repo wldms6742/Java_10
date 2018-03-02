@@ -3,8 +3,8 @@ package com.jieun.util.st.ex1;
 public class Weather {
 //날씨정보데이터 운반
 	private String location;
-	private String gion;
-	private String hum;
+	private int gion;
+	private int hum;
 	private String wind;
 	public String getLocation() {
 		return location;
@@ -12,16 +12,16 @@ public class Weather {
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	public String getGion() {
+	public int getGion() {
 		return gion;
 	}
-	public void setGion(String gion) {
+	public void setGion(int gion) {
 		this.gion = gion;
 	}
-	public String getHum() {
+	public int getHum() {
 		return hum;
 	}
-	public void setHum(String hum) {
+	public void setHum(int hum) {
 		this.hum = hum;
 	}
 	public String getWind() {
@@ -31,3 +31,4 @@ public class Weather {
 		this.wind = wind;
 	}
 }
+	
